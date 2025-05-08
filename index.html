@@ -19,10 +19,42 @@
   </head>
   <body>
     <!-- DESKTOP NAVBAR -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo"><a href="./index.html">Nick Scaperdas</a></div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- MOBILE NAVBAR -->
+    <nav class="hamburger-nav">
+      <div class="logo"><a href="index.html">Nick Scaperdas</a></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- HERO -->
+    <section id="hero"></section>
 
     <!-- ABOUT ME -->
 
@@ -34,6 +66,6 @@
 
     <!-- FOOTER -->
 
-    <script href="./script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
