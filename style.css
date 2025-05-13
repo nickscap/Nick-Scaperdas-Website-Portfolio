@@ -229,9 +229,9 @@ img {
 
 /* SECTION */
 section {
-  padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
+  padding: 4vh 0;
+  height: 100vh;
+  margin: 0 8rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -250,6 +250,7 @@ section {
 /* TEXT */
 .title {
   font-size: 3rem;
+  text-align: center;
 }
 
 .title-white {
