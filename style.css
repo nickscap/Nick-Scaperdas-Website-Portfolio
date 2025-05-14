@@ -225,6 +225,44 @@ img {
   text-align: justify;
 }
 
+/* PROJECTS */
+.project-group {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.project-group-header {
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.project-group-header h3 {
+  width: 95%;
+}
+
+#projects i {
+  position: absolute;
+  right: 0;
+  top: 2rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.project-group-body {
+  display: none;
+  text-align: justify;
+}
+
+.project-group-body.open {
+  display: flex;
+}
+
+.project-image {
+  width: 400px;
+  height: auto;
+}
+
 /* REUSED CLASSES */
 
 /* SECTION */
