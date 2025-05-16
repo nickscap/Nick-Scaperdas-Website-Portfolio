@@ -227,24 +227,28 @@ img {
 
 /* PROJECTS */
 .project-group {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--dark-color);
   padding-bottom: 1rem;
 }
 
 .project-group-header {
   padding: 1rem 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   position: relative;
 }
 
-.project-group-header h3 {
-  width: 95%;
+.project-group-header h4 {
+  text-decoration: underline 0.5px;
+  text-decoration-color: var(--primary-color);
+  text-underline-offset: 0.5rem;
+  font-weight: 600;
+  font-size: 1.25rem;
 }
 
 #projects i {
   position: absolute;
   right: 0;
-  top: 2rem;
+  top: 1.5rem;
   font-size: 1.25rem;
   cursor: pointer;
 }
@@ -252,6 +256,9 @@ img {
 .project-group-body {
   display: none;
   text-align: justify;
+  gap: 1.5rem;
+  margin: 0 1.5rem;
+  align-items: center;
 }
 
 .project-group-body.open {
@@ -260,7 +267,27 @@ img {
 
 .project-image {
   width: 400px;
-  height: auto;
+  height: 225px;
+  border-radius: 2rem;
+  border: var(--primary-color) 0.1rem solid;
+}
+
+/* CONTACT */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-info-outer-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: var(--primary-color) 0.1rem solid;
+  background: white;
+  margin: 2rem auto;
+  padding: 0.5rem;
 }
 
 /* REUSED CLASSES */
