@@ -211,7 +211,7 @@ img {
   border-color: white;
 }
 
-.experience-container {
+.about-inner-container {
   padding: 1rem;
   flex: 1;
   background: black;
@@ -222,6 +222,74 @@ img {
 
 .text-container {
   display: flex;
+  text-align: justify;
+  padding-top: 0.5rem;
+}
+
+/* EXPERIENCE */
+#experience {
+}
+
+.experience-outer-container {
+  margin-top: 1rem;
+}
+
+.work-title-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.position-title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-container {
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid var(--dark-color);
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  align-items: center;
+}
+
+.experience-inner-container {
+  width: 40vw;
+}
+
+.work-image {
+  width: 480px;
+  height: auto;
+  border-radius: 2rem;
+}
+
+.work-title {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+  text-underline-offset: 0.5rem;
+}
+
+.location-title {
+  font-size: 1.5rem;
+  color: var(--dark-color);
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+  text-underline-offset: 0.5rem;
+}
+
+.position-title {
+  font-size: 1.25rem;
+}
+
+.position-date {
+  font-size: 1.25rem;
+}
+
+.experience-text {
   text-align: justify;
 }
 
@@ -270,6 +338,10 @@ img {
   height: 225px;
   border-radius: 2rem;
   border: var(--primary-color) 0.1rem solid;
+}
+
+.project-text {
+  text-align: justify;
 }
 
 /* CONTACT */
