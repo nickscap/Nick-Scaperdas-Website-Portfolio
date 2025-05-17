@@ -92,7 +92,7 @@
   }
 
   .contact-info-outer-container {
-    width: 80vw;
+    width: 60vw;
     flex-direction: column;
   }
 
@@ -111,9 +111,13 @@
   .contact-link {
     font-size: 1rem;
   }
-}
 
-@media screen and (max-width: 400px) {
+  .experience-text,
+  .text-container .text-small-white,
+  .project-text {
+    text-align: left;
+  }
+
   .contact-info-outer-container {
     flex-direction: row;
   }
