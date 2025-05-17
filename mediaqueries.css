@@ -1,3 +1,14 @@
+@media screen and (max-width: 1400px) {
+  .description-container {
+    flex-wrap: wrap;
+  }
+
+  #experience,
+  #projects {
+    height: fit-content;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .navbar {
     display: none;
@@ -5,5 +16,143 @@
 
   .hamburger-nav {
     display: flex;
+  }
+
+  #hero {
+    display: block;
+    height: 85vh;
+  }
+
+  section {
+    padding-top: 0;
+  }
+
+  .pic-container {
+    margin: auto;
+    width: auto;
+    height: 50%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #about {
+    height: fit-content;
+  }
+
+  .about-outer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-container {
+    width: 80vw;
+  }
+
+  .about-pic-container {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #hero {
+    height: fit-content;
+  }
+
+  .work-title-container {
+    flex-direction: column;
+  }
+
+  .position-title-container {
+    flex-direction: column;
+  }
+
+  .experience-container {
+    flex-direction: column;
+  }
+
+  .experience-inner-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-group-body {
+    flex-direction: column;
+  }
+
+  .project-image {
+    width: 75%;
+  }
+
+  #contact,
+  footer,
+  .footer-container {
+    height: fit-content;
+  }
+
+  .contact-info-outer-container {
+    width: 80vw;
+    flex-direction: column;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pic-container {
+    width: 275px;
+    height: auto;
+  }
+
+  .contact-link {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact-info-outer-container {
+    flex-direction: row;
+  }
+
+  .contact-link {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 719px) and (max-width: 1200px) {
+  section {
+    height: fit-content;
+  }
+
+  #hero {
+    height: fit-content;
+  }
+
+  .pic-container {
+    margin: auto;
+    width: 275px;
+    height: auto;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-height: 550px) {
+  section {
+    height: fit-content;
+  }
+
+  #hero {
+    height: fit-content;
+  }
+
+  .pic-container {
+    margin: auto;
+    width: 275px;
+    height: auto;
+    justify-content: center;
   }
 }
