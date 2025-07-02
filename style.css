@@ -423,7 +423,7 @@ footer .nav-links ul {
 /* SECTION */
 section {
   padding: 4vh 0;
-  height: 100vh;
+  height: fit-content;
   margin: 0 10vw;
   box-sizing: border-box;
   min-height: fit-content;
